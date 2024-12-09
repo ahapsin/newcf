@@ -38,6 +38,8 @@ export default defineNuxtConfig({
     "@primevue/nuxt-module",
     "@pinia/nuxt",
     "@nuxt/icon",
+    "@nuxt/image",
+    "@vueuse/nuxt",
   ],
   primevue: {
     options: {
@@ -48,7 +50,7 @@ export default defineNuxtConfig({
   },
   components: [
     {
-      path: '~/components',
+      path: "~/components",
       pathPrefix: false,
     },
   ],

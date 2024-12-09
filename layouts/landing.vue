@@ -1,17 +1,22 @@
 <template>
-  <div class="flex bg-slate-50 w-screen h-screen justify-center overflow-auto">
-    <div class="bg-slate-50 w-[1366px]">
-      <LandingHeader/>
-      <div class="p-4">
-        <slot />
-      </div>
-      <LandingFooter/>
+    <div ref="el" class="relative bg-white w-screen h-screen justify-center overflow-auto">
+        <div class="w-full">
+            <div class="fixed top-0 pe-4 w-full z-50" :class="!arrivedState.top ? 'bg-white shadow-xl' :'bg-transparent '">
+                <LandingHeader />
+            </div>
+            <div>
+                <slot />
+
+            </div>
+            <LandingFooter />
+
+        </div>
     </div>
-  </div>
 </template>
 
 <script lang="ts" setup>
-
+const el = ref<HTMLElement | null>(null)
+const { x, y, isScrolling, arrivedState, directions } = useScroll(el)
 </script>
 
 <style scoped>
