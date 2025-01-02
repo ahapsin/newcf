@@ -57,15 +57,15 @@ const cabang = [
 </script>
 
 <template>
-    <div class="animate-duration-1000 animate-ease-in-out">
-        <div class="p-4 text-white px-10 bg-surface-50"></div>
+    <div class="animate-duration-1000 animate-ease-in-out dark:bg-primary-600">
+        <div class="p-4 text-white px-10 bg-surface-50 dark:bg-primary-600"></div>
         <div class="flex justify-center pt-10 text-orange-500 font-semibold  text-2xl">
             Dewan Komisaris & Direksi
 
         </div>
         <div class="flex w-full text-muted-color justify-center">PT. BPR Cahaya Fajar</div>
         <div class="grid md:grid-cols-3 p-4 md:p-20 gap-4 ">
-            <div class="bg-surface-50 p-4 rounded-xl animate-duration-1000 animate-ease-in-out" v-for="branch in cabang"
+            <div class="bg-surface-50 dark:bg-primary-700 p-4 rounded-xl animate-duration-1000 animate-ease-in-out" v-for="branch in cabang"
                 v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
                 <div class="flex">
                     <Avatar :image="branch.avatar" class="mr-2" size="xlarge" shape="circle" />

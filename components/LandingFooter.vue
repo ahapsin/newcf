@@ -1,8 +1,10 @@
 <template>
-    <div class="flex gap-10 bg-surface-200 p-10 px-14 justify-between">
+    <div class="flex gap-10 bg-surface-200 dark:bg-primary-700 p-10 px-14 justify-between">
         <div class="flex flex-col items-start gap-x-32">
-            <Logo />
-            <div class="flex flex-col border border-t bg-surface-200 text-muted-color text-xs ">
+            <div class="w-[180px] py-4">
+                <Logo />
+            </div>
+            <div class="flex flex-col bg-surface-200 dark:bg-primary-700 text-muted-color text-xs ">
                 PT. Bank Perekonomian Rakyat Cahaya Fajar terdaftar dan diawasi oleh: <br />
                 <strong>Otoritas Jasa Keuangan (OJK) & Lembaga Penjamin Simpanan (LPS)</strong><br />
                 <small>&copy; BPRcahayafajar 2024. All rights reserved.</small>

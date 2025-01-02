@@ -1,15 +1,13 @@
 <template>
     <div ref="el" class="relative bg-white w-screen h-screen justify-center overflow-auto">
         <div class="w-full">
-            <div class="fixed top-0 pe-4 w-full z-50" :class="!arrivedState.top ? 'bg-white shadow-xl' :'bg-transparent '">
+            <div class="fixed top-0 pe-4 w-full z-50" :class="!arrivedState.top ? 'bg-white dark:bg-primary-700 shadow-xl' :'bg-transparent '">
                 <LandingHeader />
             </div>
             <div>
                 <slot />
-
             </div>
             <LandingFooter />
-
         </div>
     </div>
 </template>

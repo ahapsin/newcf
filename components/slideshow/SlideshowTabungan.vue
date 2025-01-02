@@ -3,7 +3,7 @@
         <Carousel :value="products" :numVisible="1" :numScroll="1" :responsiveOptions="responsiveOptions"
             :showNavigators="false">
             <template #item="slotProps">
-                <div class="h-[550px] bg-[url('/p1.png')] bg-right">
+                <div class="h-[550px] bg-right" :class="`bg-[url(${slotProps.data.img})]`">
 
                 </div>
             </template>
@@ -16,7 +16,7 @@
 const products = [
     {
         "id": 1,
-        "img":"https://images.unsplash.com/photo-1536624034625-d5433d6391e4?q=80&w=1459&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "img":"/deposito.png",
         "name": "Leanne Graham",
         "username": "Bret",
         "email": "Sincere@april.biz",
@@ -40,7 +40,7 @@ const products = [
     },
     {
         "id": 2,
-        "img": "https://images.unsplash.com/photo-1515052945961-bbb80118b74b?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "img": "/p2.png",
         "name": "Ervin Howell",
         "username": "Antonette",
         "email": "Shanna@melissa.tv",

@@ -48,13 +48,12 @@ const cabang = [
 <template>
     <div id="contact"
         class="animate-duration-1000 animate-ease-in-out">
-        <div class="p-4 text-white px-10 bg-surface-50"></div>
-        <div class="flex justify-center  pt-10 text-orange-500 font-semibold  bg-primary text-2xl">
+        <div class="flex justify-center  pt-10 text-orange-500 font-semibold bg-primary dark:bg-primary-600 text-2xl">
             Kantor Pelayanan Cabang
         </div>
-        <div class="grid md:grid-cols-3 p-4 md:p-20 gap-4 bg-primary ">
-            <div class="bg-primary-400 p-4 rounded-xl text-white animate-duration-1000 animate-ease-in-out"
-                v-for="branch in cabang"
+        <div class="grid md:grid-cols-3 p-4 md:p-20 gap-4 bg-primary dark:bg-primary-600 ">
+            <div class="bg-primary-700 p-4 rounded-xl text-white animate-duration-1000 animate-ease-in-out"
+                v-for="branch in cabang" :key="branch"
                 v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
                 <div class="flex justify-between text-xl font-semibold ">
                     {{ branch.nama_kantor }}
