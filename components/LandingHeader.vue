@@ -1,6 +1,6 @@
 <template>
-    <div class="w-full z-50 flex transparent justify-between p-2">
-        <div class="flex z-50 w-full justify-between items-center">
+    <div class="w-full flex transparent justify-center p-2">
+        <div class="flex  w-[1366px] justify-between items-center">
             <div class="flex items-center">
                 <Navbar class="block md:hidden absolute w-1/2 md:w-full" v-if="props.headLess" />
                 <Logo class="ps-12 md:ps-4 w-[180px]" v-if="props.headLess" />

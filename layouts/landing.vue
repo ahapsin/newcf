@@ -4,7 +4,7 @@
             <div class="fixed top-0 pe-4 w-full z-50" :class="!arrivedState.top ? 'bg-white dark:bg-primary-700 shadow-xl' :'bg-transparent '">
                 <LandingHeader />
             </div>
-            <div>
+            <div class="w-max-[1366px]">
                 <slot />
             </div>
             <LandingFooter />

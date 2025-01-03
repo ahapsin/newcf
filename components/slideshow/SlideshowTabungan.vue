@@ -16,7 +16,7 @@
 const products = [
     {
         "id": 1,
-        "img":"/deposito.png",
+        "img":"/q.webp",
         "name": "Leanne Graham",
         "username": "Bret",
         "email": "Sincere@april.biz",

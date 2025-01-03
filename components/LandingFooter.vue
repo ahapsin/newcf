@@ -63,15 +63,21 @@
         <div class="flex flex-col gap-y-4">
             <span>folow us on</span>
             <div class="flex gap-2">
+              <NuxtLink to="https://www.youtube.com/@bprcahayafajar8816">
                 <Button size="small" severity="secondary" unstyled>
                     <Icon name="line-md:youtube" size="1.5em" class="text-primary" />
                 </Button>
+              </NuxtLink>
+              <NuxtLink to="https://www.instagram.com/bprcahayafajar_/">
                 <Button size="small" severity="secondary" unstyled>
                     <Icon name="line-md:instagram" size="1.3em" class="text-primary" />
                 </Button>
+              </NuxtLink>
+              <NuxtLink to="https://www.instagram.com/bprcahayafajar_/">
                 <Button size="small" severity="secondary" unstyled>
                     <Icon name="line-md:twitter-x" size="1.2em" class="text-primary" />
                 </Button>
+              </NuxtLink>
             </div>
         </div>
     </div>
