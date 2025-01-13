@@ -1,7 +1,7 @@
 <template>
   <div class="flex w-full justify-center">
     <div
-        class="flex bg-primary-50/10 dark:bg-[url('/hero1.webp')] bg-[url('/hero1.webp')] lg:h-dvh bg-cover md:bg-right w-[1366px]">
+        :class="`flex bg-primary-50/10 dark:bg-[url('/hero1.webp')] bg-[url('/${props.src}')] lg:h-dvh bg-cover md:bg-right w-[1366px]`">
       <div class="relative py-44 pb-20 md:py-[200px] p-10 md:ps-20 flex flex-col  gap-y-4  md:w-1/2">
         <!-- <span class="text-2xl md:text-5xl ">
             <div class="flex flex-col leading-tight font-semibold">
@@ -17,3 +17,8 @@
     </div>
   </div>
 </template>
+<script setup>
+const props = defineProps({
+  src: String,
+})
+</script>

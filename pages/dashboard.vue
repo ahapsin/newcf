@@ -3,62 +3,15 @@
 </script>
 
 <template>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-        <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
-    <div>sadasd</div>
+  <div>sadasd {{ count }}</div>
 </template>
-<script lang="ts" setup>
+<script setup lang="ts">
+const config = useRuntimeConfig();
+const data = $fetch(`${config.public.apiBase}/posts`);
+console.log(data)
 definePageMeta({
   layout: 'dashboard'
-})
+});
+
+
 </script>

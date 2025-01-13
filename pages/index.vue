@@ -2,7 +2,7 @@
     <div>
         <Title name="title">BPR Cahaya Fajar</Title>
         <div>
-            <SectionHero />
+            <SectionHero src="hero1.webp"/>
             <SectionProduct />
         </div>
         <SectionAbout />

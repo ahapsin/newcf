@@ -1,13 +1,6 @@
 <template>
     <div class="card">
-        <Carousel :value="products" :numVisible="1" :numScroll="1" :responsiveOptions="responsiveOptions"
-            :showNavigators="false">
-            <template #item="slotProps">
-                <div class="h-[550px] bg-right" :class="`bg-[url(${slotProps.data.img})]`">
-
-                </div>
-            </template>
-        </Carousel>
+      <section-hero src="1.webp"/>
     </div>
 </template>
 
