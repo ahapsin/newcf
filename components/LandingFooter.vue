@@ -10,57 +10,15 @@
                 <small>&copy; BPRcahayafajar 2024. All rights reserved.</small>
             </div>
         </div>
-        <div class="flex gap-10" v-if="false">
-            <Card unstyled class="text-surface-800">
-                <template #title><strong>Simple Card</strong></template>
-                <template #content>
-                    <div class="flex flex-col">
-                        <NuxtLink to="/about">
-                            About page
-                        </NuxtLink>
-                        <NuxtLink to="/about">
-                            About page
-                        </NuxtLink>
-                        <NuxtLink to="/about">
-                            About page
-                        </NuxtLink>
-                    </div>
-                </template>
-            </Card>
-            <Card unstyled class="text-surface-800">
-                <template #title><strong>Simple Card</strong></template>
-                <template #content>
-                    <div class="flex flex-col">
-                        <NuxtLink to="/about">
-                            About page
-                        </NuxtLink>
-                        <NuxtLink to="/about">
-                            About page
-                        </NuxtLink>
-                        <NuxtLink to="/about">
-                            About page
-                        </NuxtLink>
-                    </div>
-                </template>
-            </Card>
-            <Card unstyled class="text-surface-800">
-                <template #title><strong>Simple Card</strong></template>
-                <template #content>
-                    <div class="flex flex-col">
-                        <NuxtLink to="/about">
-                            About page
-                        </NuxtLink>
-                        <NuxtLink to="/about">
-                            About page
-                        </NuxtLink>
-                        <NuxtLink to="/about">
-                            About page
-                        </NuxtLink>
-                    </div>
-                </template>
-            </Card>
-        </div>
+
         <div class="flex flex-col gap-y-4">
+          <div class="flex flex-col bg-surface-200 dark:bg-primary-700 text-muted-color text-xs ">
+            <p>PT. Bank Perekonomian Rakyat Cahaya Fajar merupakan peserta penjaminan LPS.<br/>
+            Maksimum nilai simpanan yang dijamin LPS per nasabah per bank adalah Rp 2 miliar<br/>
+            Untuk mengetahui Tingkat Bunga Penjaminan LPS silahkan akses
+              <a href="https://apps.lps.go.id/BankPesertaLPSRate" target="_blank" class="text-blue-500 underline">disini</a></p>
+
+          </div>
             <span>folow us on</span>
             <div class="flex gap-2">
               <NuxtLink to="https://www.youtube.com/@bprcahayafajar8816">
