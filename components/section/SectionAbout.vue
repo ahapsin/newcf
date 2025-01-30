@@ -1,7 +1,15 @@
 <template>
     <div class="p-4 md:p-20 gap-4 flex flex-col bg-surface-50 dark:bg-primary-600" id="about">
+      <div>
+        <div
+            :class="`flex bg-primary-50/10 bg-[url('/logo_change.png')] lg:h-dvh bg-contain md:bg-right w-[1366px]`">
+          <div class="relative py-44 pb-20 md:py-[200px] p-10 md:ps-20 flex flex-col  gap-y-4  md:w-1/2">
+          </div>
+        </div>
+      </div>
         <div class="flex flex-col md:flex-row gap-4 mt-10"
             v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
+
             <div class="bg-primary-50/10 rounded-xl p-4 w-full animate-duration-1000 animate-ease-in-out"
                 v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
                 <div class="text-orange-500">Visi Perusahaan</div>

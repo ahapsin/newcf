@@ -6,7 +6,7 @@
             </div>
             <div class="flex flex-col bg-surface-200 dark:bg-primary-700 text-muted-color text-xs ">
                 PT. Bank Perekonomian Rakyat Cahaya Fajar terdaftar dan diawasi oleh: <br />
-                <strong>Otoritas Jasa Keuangan (OJK) & Lembaga Penjamin Simpanan (LPS)</strong><br />
+                <strong>Otoritas Jasa Keuangan (OJK)</strong><br />
                 <small>&copy; BPRcahayafajar 2024. All rights reserved.</small>
             </div>
         </div>
