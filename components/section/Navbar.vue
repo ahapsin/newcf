@@ -64,7 +64,29 @@ const items = ref([
     {
         label: 'Tentang Kami',
         icon: 'pi pi-envelope',
-        path: '/#about',
+        path: '/#visimisi',
+        items: [
+
+            {
+                label: 'Visi Misi',
+                icon: 'pi pi-bolt',
+                path: '/#visimisi',
+            },
+            {
+                label: 'Pengumuman',
+                icon: 'pi pi-bolt',
+                path: '/#pengumuman',
+            },
+            {
+                label: 'Laporan Tata Kelola',
+                icon: 'pi pi-bolt',
+                path: '/#tatakelola',
+            },
+            {
+                label: 'Laporan Publikasi',
+                icon: 'pi pi-server',
+                path: '/#publikasi',
+            }]
     },
     {
         label: 'Kontak Kami',
