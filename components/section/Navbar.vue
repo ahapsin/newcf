@@ -66,7 +66,6 @@ const items = ref([
         icon: 'pi pi-envelope',
         path: '/#visimisi',
         items: [
-
             {
                 label: 'Visi Misi',
                 icon: 'pi pi-bolt',
@@ -92,6 +91,22 @@ const items = ref([
         label: 'Kontak Kami',
         icon: 'pi pi-envelope',
         path: '/#contact',
+        items: [
+            {
+                label: 'Layanan Perbankan',
+                icon: 'pi pi-bolt',
+                path: '/#contact',
+            },
+            {
+                label: 'Pengaduan Nasabah',
+                icon: 'pi pi-bolt',
+                path: '/pengaduan-nasabah',
+            },
+            {
+                label: 'Whistle blowing System (WBS)',
+                icon: 'pi pi-server',
+                path: '/wbs',
+            }]
     }
 ]);
 </script>

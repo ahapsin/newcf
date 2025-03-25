@@ -1,13 +1,13 @@
 <template>
-    <div class="flex gap-10 bg-surface-200 dark:bg-primary-700 p-10 px-14 justify-between">
+    <div class="flex flex-col md:flex-row gap-10 bg-surface-200 dark:bg-primary-700 p-10 px-14 justify-between">
         <div class="flex flex-col items-start gap-x-32">
             <div class="w-[180px] py-4">
                 <Logo />
             </div>
             <div class="flex flex-col bg-surface-200 dark:bg-primary-700 text-muted-color text-xs ">
-                PT. Bank Perekonomian Rakyat Cahaya Fajar terdaftar dan diawasi oleh: <br />
+                PT. Bank Perekonomian Rakyat Cahaya Fajar berizin dan diawasi oleh: <br />
                 <strong>Otoritas Jasa Keuangan (OJK)</strong><br />
-                <small>&copy; BPRcahayafajar 2024. All rights reserved.</small>
+                <small>&copy; BPRcahayafajar {{ new Date().getFullYear() }}. All rights reserved.</small>
             </div>
         </div>
 
