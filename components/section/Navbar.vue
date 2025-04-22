@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <Menubar :model="items" style="border: 0; background-color: transparent;" class="font-medium">
-            <template #item="{ item, props,hasSubmenu }">
+            <template #item="{ item, props, hasSubmenu }">
                 <a :href="item.path" class="flex items-center" v-bind="props.action" v-if="!hasSubmenu">
                     <span>{{ item.label }}</span>
                 </a>
@@ -40,7 +40,7 @@ const items = ref([
             {
                 label: 'Kredit',
                 icon: 'pi pi-palette',
-                path:'/kredit',
+                path: '/kredit',
                 items: [
                     {
                         label: 'KAMU',
@@ -77,15 +77,50 @@ const items = ref([
                 path: '/#pengumuman',
             },
             {
-                label: 'Laporan Tata Kelola',
-                icon: 'pi pi-bolt',
-                path: '/#tatakelola',
+                label: 'Laporan Tahunan',
+                icon: 'pi pi-server',
+                path: '/#publikasi',
+                items: [
+                    {
+                        label: '2024',
+                        path: '/tahunan/2024',
+                    },
+                ]
             },
             {
                 label: 'Laporan Publikasi',
                 icon: 'pi pi-server',
                 path: '/#publikasi',
-            }]
+                items: [
+                    {
+                        label: '2024',
+                        path: '/#publikasi',
+                    },
+                ]
+            },
+            {
+                label: 'Laporan Tata Kelola',
+                icon: 'pi pi-server',
+                path: '/#tatakelola',
+                items: [
+                    {
+                        label: '2024',
+                        path: '/tata_kelola/2024',
+                    },
+                ]
+            },
+            {
+                label: 'Laporan Keberlanjutan',
+                icon: 'pi pi-server',
+                path: '/#publikasi',
+                items: [
+                    {
+                        label: '2024',
+                        path: '/keberlanjutan/2024',
+                    },
+                ]
+            },
+        ]
     },
     {
         label: 'Kontak Kami',
