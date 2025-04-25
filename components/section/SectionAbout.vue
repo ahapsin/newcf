@@ -52,22 +52,22 @@
         </div>
 
     </div>
-    <div class="p-4" id="tatakelola">
+    <!-- <div class="p-4" id="tatakelola">
         <div class="flex  justify-between items-center bg-primary text-white rounded-xl p-4 mt-20 w-full">
             <div class="text-xl">Laporan Tata Kelola BPR Cahaya Fajar</div>
             <Button as="a" label="Lihat" severity="warn"
                 href="https://api.bprcahayafajar.co.id/storage/File_Upload/n985CtYawKgK990riJz9qJxSKyMtTICctgf6UyHA.pdf"
                 target="_blank" rel="noopener" />
         </div>
-    </div>
-    <div class="rounded-xl overflow-clip shadow-lg p-4" id="publikasi">
+    </div> -->
+    <!-- <div class="rounded-xl overflow-clip shadow-lg p-4" id="publikasi">
         <img src="/publikasi.jpg">
         <div class="flex  justify-between items-center  rounded-xl p-4 w-full">
             <div class="text-xl">Laporan Publikasi BPR Cahaya Fajar</div>
             <Button as="a" label="Download" severity="warn" href="/publikasi_2024.pdf" target="_blank" rel="noopener"
                 download="" />
         </div>
-    </div>
+    </div> -->
 </template>
 <script setup>
 const showMisi = ref(false);

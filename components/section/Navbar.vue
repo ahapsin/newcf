@@ -94,7 +94,7 @@ const items = ref([
                 items: [
                     {
                         label: '2024',
-                        path: '/#publikasi',
+                        path: '/publikasi/2024',
                     },
                 ]
             },
