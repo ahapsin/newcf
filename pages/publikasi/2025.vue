@@ -1,14 +1,14 @@
 <template>
-    <Title name="title">Laporan Publikasi 2024</Title>
+    <Title name="title">Laporan Publikasi 2025</Title>
     <div>
         <div class="p-10 bg-white flex items-center justify-center text-white text-2xl">
         </div>
         <Accordion value="0">
-            <AccordionPanel value="0">
-                <AccordionHeader> LAPORAN PUBLIKASI PERIODE DESEMBER 2024</AccordionHeader>
+            <AccordionPanel value="1">
+                <AccordionHeader> LAPORAN PUBLIKASI PERIODE MARET 2025</AccordionHeader>
                 <AccordionContent>
                     <div class="pdf-container">
-                        <iframe src="/laporan/publikasi/publikasi_2024.pdf" width="100%" height="600px"
+                        <iframe src="/laporan/publikasi/maret_2025.pdf" width="100%" height="600px"
                             style="border: none;"></iframe>
                     </div>
                 </AccordionContent>
