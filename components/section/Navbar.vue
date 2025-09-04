@@ -41,23 +41,7 @@ const items = ref([
                 label: 'Kredit',
                 icon: 'pi pi-palette',
                 path: '/kredit',
-                items: [
-                    {
-                        label: 'KAMU',
-                        icon: 'pi pi-palette',
-                        path: '/kredit#kamu',
-                    },
-                    {
-                        label: 'KAMA',
-                        icon: 'pi pi-palette',
-                        path: '/kredit#kama',
-                    },
-                    {
-                        label: 'KPM',
-                        icon: 'pi pi-palette',
-                        path: '/kredit#kpm',
-                    }
-                ]
+          
             }
         ]
     },
