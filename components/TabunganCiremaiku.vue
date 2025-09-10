@@ -48,34 +48,38 @@
             <ul class="list-disc list-inside text-gray-700 mb-4">
                 <li>Suku bunga menarik dan tinggi. Semakin besar saldo tabungan Anda, semakin besar bunganya.</li>
                 <li>Mudah dalam pembukaan rekening dengan pelayanan yang cepat.</li>
-                <li>Penyetoran dan penarikan dapat dilakukan secara tunai, transfer antar bank, dan pemindahbukuan.</li>
+                <li>Penyetoran tabungan dapat dilakukan dengan setoran tunai, transfer dari bank lain, dan
+                    pemindahbukuan.</li>
                 <li>Dijamin oleh Lembaga Penjamin Simpanan (LPS).</li>
                 <li>Nasabah berkesempatan mendapatkan hadiah undian setiap tahunnya.</li>
             </ul>
             <h3 class="font-medium text-gray-800">Risiko:</h3>
             <ul class="list-disc list-inside text-gray-700">
                 <li>Risiko perubahan suku bunga tabungan.</li>
-                <li>Tidak dijamin LPS apabila:</li>
-                <ul class="ml-5 list-disc">
-                    <li>Suku bunga tabungan Anda melebihi tingkat penjaminan LPS.</li>
-                    <li>Nominal simpanan Anda melebihi nominal penjaminan LPS.</li>
-                    <li>Bank tidak turut serta dalam penjaminan LPS.</li>
-                </ul>
-                <li>Bank dapat melakukan pemblokiran/pembekuan/pembatalan buntut saldo rekening di bawah ketentuan.</li>
+                <li>Tidak dijaminnya tabungan Anda oleh LPS apabila:
+                    <ul class="list-decimal ml-10">
+                        <li>Suku bunga tabungan Anda melebihi tingkat bunga penjamin LPS.</li>
+                        <li>Nominal simpanan Anda melebihi nominal penjaminan LPS.</li>
+                    </ul>
+                </li>
+                <li>Penutupan rekening pasif oleh bank apabila 6 bulan berturut-turut saldo rekening di bawah
+                    ketentuan.</li>
+                <li>Pajak hadiah undian ditanggung oleh pemenang undian.</li>
             </ul>
         </section>
 
         <!-- Syarat & Kontak -->
         <section>
             <h2 class="text-xl font-semibold text-primary mb-2">Persyaratan dan Tata Cara</h2>
-            <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <ol class="list-disc ml-5">
                 <li>Membawa kartu identitas (KTP/SIM) beserta dokumen lainnya sesuai ketentuan produk.</li>
                 <li>Mengisi formulir pembukaan rekening dan dokumen lainnya yang dibutuhkan Bank.</li>
-            </ul>
+                <li>Minimal setoran awal sesuai ketentuan.</li>
+            </ol>
 
             <h3 class="font-medium text-gray-800 mt-4">Informasi & Kontak:</h3>
             <ul class="text-gray-700">
-                <li>Telepon: (0231) 248049 / 248060 / 248222</li>
+                <li>Telepon: (0231) 248400 / 248600 / 248222</li>
                 <li>Email: <a href="mailto:bprcahayafajar@yahoo.com"
                         class="text-primary underline">bprcahayafajar@yahoo.com</a></li>
                 <li>Website: <a href="http://www.bprcahayafajar.co.id" target="_blank"

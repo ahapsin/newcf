@@ -22,10 +22,10 @@
         <section>
             <h2 class="text-xl font-semibold text-primary mb-2">Fitur Utama</h2>
             <div class="grid grid-cols-2 gap-4 text-gray-700">
-                <div>Setoran Awal: <strong>Rp. 100.000,-</strong></div>
-                <div>Saldo Minimal: <strong>Rp. 100.000,-</strong></div>
+                <div>Setoran Awal: <strong>Rp. 10.000,-</strong></div>
+                <div>Saldo Minimal: <strong>Rp. 10.000,-</strong></div>
                 <div>Setoran Selanjutnya: <strong>Tidak ada batasan</strong></div>
-                <div>Minimal Penarikan Tunai: <strong>Rp. 100.000,-</strong></div>
+                <div>Minimal Penarikan Tunai: <strong>Rp. 50.000,-</strong></div>
             </div>
 
             <!-- Tabel Bunga -->
@@ -80,36 +80,46 @@
         <section>
             <h2 class="text-xl font-semibold text-primary mb-2">Manfaat dan Risiko</h2>
             <h3 class="font-medium text-gray-800">Manfaat:</h3>
-            <ul class="list-disc list-inside text-gray-700 mb-4">
+            <ol class="list-decimal list-inside space-y-2 text-gray-700">
                 <li>Suku bunga menarik dan tinggi. Semakin besar saldo tabungan Anda, semakin besar bunganya.</li>
                 <li>Mudah dalam pembukaan rekening dengan pelayanan yang cepat.</li>
-                <li>Penyetoran dan penarikan dapat dilakukan secara tunai, transfer antar bank, dan pemindahbukuan.</li>
+                <li>Penyetoran tabungan dapat dilakukan dengan setoran tunai, transfer dari bank lain, dan
+                    pemindahbukuan.</li>
                 <li>Dijamin oleh Lembaga Penjamin Simpanan (LPS).</li>
-            </ul>
-            <h3 class="font-medium text-gray-800">Risiko:</h3>
+            </ol>
+            <h3 class="font-medium text-gray-800 mt-6">Risiko:</h3>
             <ul class="list-disc list-inside text-gray-700">
-                <li>Risiko perubahan suku bunga tabungan.</li>
-                <li>Tidak dijamin LPS apabila:</li>
-                <ul class="ml-5 list-disc">
-                    <li>Suku bunga tabungan Anda melebihi tingkat bunga penjamin LPS.</li>
-                    <li>Nominal simpanan Anda melebihi nominal penjamin LPS.</li>
-                    <li>Bank tidak ikut serta dalam penjaminan LPS.</li>
-                </ul>
-                <li>Bank dapat melakukan pemblokiran atau pembekuan jika dana turun di bawah ketentuan.</li>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Risiko perubahan suku bunga tabungan.</li>
+
+                    <li>
+                        Tidak dijaminnya tabungan Anda oleh LPS apabila:
+                        <ul class="list-disc list-inside ml-5 mt-1 space-y-1">
+                            <li>Suku bunga tabungan Anda melebihi tingkat bunga penjamin LPS.</li>
+                            <li>Nominal simpanan Anda melebihi nominal penjaminan LPS.</li>
+                        </ul>
+                    </li>
+
+                    <li>Penutupan rekening pasif oleh bank apabila 6 bulan berturut-turut saldo rekening di bawah
+                        ketentuan.</li>
+                </ol>
+
             </ul>
         </section>
 
         <!-- Syarat & Kontak -->
         <section>
             <h2 class="text-xl font-semibold text-primary mb-2">Persyaratan dan Tata Cara</h2>
-            <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <ol class="list-decimal list-inside space-y-2 text-gray-700">
                 <li>Membawa kartu identitas (KTP/SIM) beserta dokumen lainnya sesuai ketentuan produk.</li>
                 <li>Mengisi formulir pembukaan rekening dan dokumen lainnya yang dibutuhkan Bank.</li>
-            </ul>
+                <li>Minimal setoran awal sesuai ketentuan.</li>
+            </ol>
+
 
             <h3 class="font-medium text-gray-800 mt-4">Informasi & Kontak:</h3>
             <ul class="text-gray-700">
-                <li>Telepon: (0231) 248049 / 248060 / 248222</li>
+                <li>Telepon: (0231) 248400 / 248600 / 248222</li>
                 <li>Email: <a href="mailto:bprcahayafajar@yahoo.com"
                         class="text-primary underline">bprcahayafajar@yahoo.com</a></li>
                 <li>Website: <a href="http://www.bprcahayafajar.co.id" target="_blank"
