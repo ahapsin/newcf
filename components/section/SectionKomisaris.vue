@@ -1,5 +1,5 @@
 <script setup>
-const cabang = [
+const komisaris = [
     {
         "nama_kantor": "Widodo",
         "jabatan": "Dewan Komisaris",
@@ -17,8 +17,9 @@ const cabang = [
         "fax": "0234-351210",
         "avatar": "soenaryo.jpg",
         "location": "https://maps.app.goo.gl/Up5E9PT6iPgCgCPc6",
-    },
-    {
+    },]
+
+    const direksi = [{
         "nama_kantor": "Robby Santoso",
         "jabatan": "Direksi",
         "alamat": "Jl. Ir. H Juanda No. 22, Plered",
@@ -56,24 +57,37 @@ const cabang = [
 
         </div>
         <div class="flex w-full text-muted-color justify-center">PT. BPR Cahaya Fajar</div>
-        <div class="grid md:grid-cols-3 p-4 md:p-20 gap-4 ">
-            <div class="bg-surface-50 dark:bg-primary-700 p-4 rounded-xl animate-duration-1000 animate-ease-in-out" v-for="branch in cabang"
-                v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
-                <div class="flex">
-                    <Avatar :image="branch.avatar" class="mr-2" size="xlarge" shape="circle" />
-                    <div>
-                        <div class="flex justify-between text-xl font-semibold ">
-                            {{ branch.nama_kantor }}
+        <div class="md:p-20">
+            <div class="grid md:grid-cols-3  gap-4 ">
+                <div class="bg-surface-50 dark:bg-primary-700 p-4 rounded-xl animate-duration-1000 animate-ease-in-out" v-for="komisaris in komisaris"
+                    v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
+                    <div class="flex">
+                        <Avatar :image="komisaris.avatar" class="mr-2" size="xlarge" shape="circle" />
+                        <div>
+                            <div class="flex justify-between text-xl font-semibold ">
+                                {{ komisaris.nama_kantor }}
+                            </div>
+                            <div class="text-muted-color">{{ komisaris.jabatan }}</div>
+                            <div class="text-muted-color"></div>
                         </div>
-                        <div class="text-muted-color">{{ branch.jabatan }}</div>
-                        <div class="text-muted-color"></div>
                     </div>
                 </div>
-
-
+            </div>
+            <div class="grid md:grid-cols-3 pt-4  gap-4 ">
+                <div class="bg-surface-50 dark:bg-primary-700 p-4 rounded-xl animate-duration-1000 animate-ease-in-out" v-for="direksi in direksi"
+                    v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
+                    <div class="flex">
+                        <Avatar :image="direksi.avatar" class="mr-2" size="xlarge" shape="circle" />
+                        <div>
+                            <div class="flex justify-between text-xl font-semibold ">
+                                {{ direksi.nama_kantor }}
+                            </div>
+                            <div class="text-muted-color">{{ direksi.jabatan }}</div>
+                            <div class="text-muted-color"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </template>
-
-<style lang="postcss" scoped></style>
