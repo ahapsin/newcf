@@ -119,6 +119,11 @@ const items = ref([
                     },
                 ]
             },
+            {
+                label: 'Piagam Audit Internal',
+                icon: 'pi pi-server',
+                path: '/laporan/piagam-audit-internal',
+            },
         ]
     },
     {

@@ -8,15 +8,7 @@ const cabang = [
         "avatar": "widodo.jpg",
         "location": "https://maps.app.goo.gl/4J3d4d7T23jEH7sz8",
     },
-    {
-        "nama_kantor": "Soegeng Notodihardjo",
-        "jabatan": "Dewan Komisaris",
-        "avatar":"soegeng.jpg",
-        "alamat": "Jl. Letjen S Parman, Pabuaran Kidul, Kab. Cirebon",
-        "telepon": ["0231-663790", "0231-663789"],
-        "fax": "0231-663788",
-        "location": "https://maps.app.goo.gl/aCiQ1WYJhJ8Gz89DA",
-    },
+    
     {
         "nama_kantor": "Soenaryo Halim",
         "jabatan": "Dewan Komisaris",
