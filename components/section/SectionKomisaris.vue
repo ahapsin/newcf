@@ -57,8 +57,8 @@ const komisaris = [
         </div>
         <div class="flex w-full text-muted-color justify-center">PT. BPR Cahaya Fajar</div>
         <div class="md:p-20">
-            <div class="flex gap-4 justify-center">
-                <div class="bg-surface-50 w-1/3 dark:bg-primary-700 p-4 rounded-xl animate-duration-1000 animate-ease-in-out" v-for="komisaris in komisaris"
+            <div class="flex md:flex-row flex-col gap-4 justify-center">
+                <div class="bg-surface-50 w-full md:w-1/3 dark:bg-primary-700 p-4 rounded-xl animate-duration-1000 animate-ease-in-out" v-for="komisaris in komisaris"
                     v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
                     <div class="flex">
                         <Avatar :image="komisaris.avatar" class="mr-2" size="xlarge" shape="circle" />
