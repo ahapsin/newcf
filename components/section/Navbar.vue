@@ -124,6 +124,17 @@ const items = ref([
                 icon: 'pi pi-server',
                 path: '/laporan/piagam-audit-internal',
             },
+            {
+                label: 'Sertifikat',
+                icon: 'pi pi-server',
+                path: '#',
+                 items: [
+                    {
+                        label: 'ISO-27001',
+                        path: '/sertifikat/iso27001',
+                    },
+                ]
+            },
         ]
     },
     {
