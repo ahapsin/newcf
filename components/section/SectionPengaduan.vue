@@ -4,7 +4,7 @@
             <img src="/public/report.svg" />
         </div>
         <div class="w-full p-10">
-            <span class="text-xl">Pelaporan / Aduan Operasional dan Layanan Bank</span>
+            <div class="text-2xl font-bold pb-8">Pelaporan / Aduan Operasional dan Layanan Bank</div>
             <div class="flex flex-col gap-4">
                 <div class="flex flex-col gap-2">
                     <label for="username">Nama Pelapor</label>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Title name="title">Pengaduan Nasabah - BPR Cahaya Fajar</Title>
+       <Title class="text-2xl font-bold pb-8">Pengaduan Nasabah - BPR Cahaya Fajar</Title>
         <div class="mt-10">
             <div class="p-4">
                 <Tabs value="0">
