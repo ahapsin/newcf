@@ -1,6 +1,6 @@
 <template>
-    <div class="flex rounded-xl overflow-clip shadow-lg p-4" id="pengumuman">
-        <img src="/logo_change.png">
+    <div class="flex rounded-xl overflow-clip shadow-lg p-20" id="pengumuman">
+        <img src="/logo_change.webp" class="border rounded-2xl">
     </div>
     <div class="p-4 md:p-20 gap-4 flex flex-col bg-surface-50 dark:bg-primary-600" id="visimisi">
         <div class="flex flex-col md:flex-row gap-4 mt-10"
