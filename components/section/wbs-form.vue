@@ -41,17 +41,47 @@
             </div>
         </div>
     </div>
+    <Dialog v-model:visible="visible" modal @after-hide="onClose" header="Terima kasih" :style="{ width: '50rem' }"
+        :breakpoints="{ '1199px': '75vw', '575px': '90vw' }">
+        <p class="m-0">
+            Laporan Anda telah kami terima dan akan ditindaklanjuti sesuai prosedur yang berlaku. Kerahasiaan identitas
+            Anda kami jaga sepenuhnya.
+        </p>
+    </Dialog>
+    <Button label="Show" @click="visible = true" />
 </template>
 
 <script setup>
 
+const visible = ref(false);
+const loading = ref(false)
+const success = ref(false)
+const errorMsg = ref(null)
+
 const handleSubmit = async () => {
-    const res = await $fetch('https://api.bprcahayafajar.co.id/email_send', {
-        method: 'POST',
-        body: formData
-    })
+    loading.value = true
+    success.value = false
+    errorMsg.value = null
+
+    try {
+        const res = await $fetch('https://api.bprcahayafajar.co.id/email_send', {
+            method: 'POST',
+            body: formData.value
+        })
+
+        // on finish SUCCESS
+        success.value = true
+        visible.value = true;
+
+    } catch (error) {
+        // on finish ERROR
+        errorMsg.value = 'Gagal mengirim laporan'
+    } finally {
+        // selalu dipanggil saat selesai
+        loading.value = false
+    }
 }
-const formData = reactive({
+const formData = ref({
     nama_pelapor: null,
     no_telpon: null,
     tgl_kejadian: null,
@@ -65,4 +95,13 @@ const jenis = ref([
     { name: 'Permasalahan terkait produk kredit' },
     { name: 'Permasalahan Lainnya' },
 ]);
+const onClose = () => {
+    formData.value = {
+        nama_pelapor: null,
+        no_telpon: null,
+        tgl_kejadian: null,
+        jenis_aduan: null,
+        keterangan: null,
+    }
+}
 </script>
