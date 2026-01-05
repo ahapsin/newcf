@@ -112,12 +112,6 @@ const items = ref([
                 label: 'Laporan Penanganan Pengaduan',
                 icon: 'pi pi-server',
                 path: '/pengaduan',
-                items: [
-                    {
-                        label: '2024',
-                        path: '/pengaduan/2024',
-                    },
-                ]
             },
             {
                 label: 'Piagam Audit Internal',
