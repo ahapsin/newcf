@@ -32,8 +32,11 @@
                 </div>
                 <div class="flex flex-col gap-2 justify-start">
                     <label for="username">Bukti</label>
-                    <FileUpload ref="fileupload" mode="basic" name="demo[]" url="/api/upload" accept="image/*"
-                        :maxFileSize="1000000" @upload="onUpload" />
+                    <div class="w-full flex justify-between ">
+                        <FileUpload mode="basic" @select="onFileSelect" customUpload auto>pilih
+                        </FileUpload>
+                        <img v-if="src" :src="src" alt="Image" class="shadow-md rounded-xl w-full sm:w-64 grayscale"/>
+                    </div>
                 </div>
                 <div class="flex flex-col gap-2">
                     <Button @click="handleSubmit">Kirim</Button>
@@ -48,7 +51,6 @@
             Anda kami jaga sepenuhnya.
         </p>
     </Dialog>
-    <Button label="Show" @click="visible = true" />
 </template>
 
 <script setup>
@@ -95,6 +97,18 @@ const jenis = ref([
     { name: 'Permasalahan terkait produk kredit' },
     { name: 'Permasalahan Lainnya' },
 ]);
+const src = ref(null);
+
+function onFileSelect(event) {
+    const file = event.files[0];
+    const reader = new FileReader();
+
+    reader.onload = async (e) => {
+        src.value = e.target.result;
+    };
+
+    reader.readAsDataURL(file);
+}
 const onClose = () => {
     formData.value = {
         nama_pelapor: null,
