@@ -9,7 +9,7 @@
             <div class="bg-primary-50/10 rounded-xl p-4 w-full animate-duration-1000 animate-ease-in-out"
                 v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
                 <div class="text-orange-500">Visi Perusahaan</div>
-                <div class="text-xl">Menjadi BPR Terbaik dan Terpercaya bagi Masyarakat Cirebon</div>
+                <div class="text-xl">Menjadi BPR Terbaik dan Terpercaya bagi Masyarakat wilayah Provinsi Jawa Barat</div>
             </div>
             <div class="bg-primary-50/10 rounded-xl p-4 w-full">
                 <div class="text-orange-500">Misi Perusahaan</div>
