@@ -31,6 +31,15 @@
                     </div>
                 </AccordionContent>
             </AccordionPanel>
+            <AccordionPanel value="4">
+                <AccordionHeader> LAPORAN PUBLIKASI PERIODE DESEMBER 2025</AccordionHeader>
+                <AccordionContent>
+                    <div class="pdf-container">
+                        <iframe src="/laporan/publikasi/desember_2025.pdf" width="100%" height="600px"
+                            style="border: none;"></iframe>
+                    </div>
+                </AccordionContent>
+            </AccordionPanel>
         </Accordion>
     </div>
 </template>
