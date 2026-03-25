@@ -41,7 +41,7 @@ const items = ref([
                 label: 'Kredit',
                 icon: 'pi pi-palette',
                 path: '/kredit',
-          
+
             }
         ]
     },
@@ -69,6 +69,10 @@ const items = ref([
                         label: '2024',
                         path: '/tahunan/2024',
                     },
+                    {
+                        label: '2025',
+                        path: '/tahunan/2025',
+                    },
                 ]
             },
             {
@@ -94,6 +98,10 @@ const items = ref([
                     {
                         label: '2024',
                         path: '/tata_kelola/2024',
+                    },
+                    {
+                        label: '2025',
+                        path: '/tata_kelola/2025',
                     },
                 ]
             },
