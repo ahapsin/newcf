@@ -8,7 +8,7 @@ const komisaris = [
         "avatar": "widodo.jpg",
         "location": "https://maps.app.goo.gl/4J3d4d7T23jEH7sz8",
     },
-    
+
     {
         "nama_kantor": "Soenaryo Halim",
         "jabatan": "Dewan Komisaris",
@@ -17,20 +17,29 @@ const komisaris = [
         "fax": "0234-351210",
         "avatar": "soenaryo.jpg",
         "location": "https://maps.app.goo.gl/Up5E9PT6iPgCgCPc6",
-    },]
-
-    const direksi = [{
+    }, {
         "nama_kantor": "Robby Santoso",
-        "jabatan": "Direksi",
+        "jabatan": "Dewan Komisaris",
         "alamat": "Jl. Ir. H Juanda No. 22, Plered",
         "telepon": ["0231-321666"],
         "avatar": "robby.jpg",
         "fax": null,
 
+    },]
+
+const direksi = [
+    {
+        "nama_kantor": "Feby Fernady Masura",
+        "jabatan": "Direktur Utama",
+        "alamat": "Jl. Syeh Maulana Akbar No. 18, Citamba, Kabupaten Kuningan",
+        "telepon": ["0232-8951005", "0232-6001041"],
+        "fax": null,
+        "avatar": "feby.jpg",
+        "location": "https://maps.app.goo.gl/C97Ch75v8VBY4q2s7",
     },
     {
         "nama_kantor": "Gunadi",
-        "jabatan": "Direksi",
+        "jabatan": "Direktur Bisnis",
         "alamat": "Komplek Ruko Jatiwangi Square Blok A No. 26, Kabupaten Majalengka",
         "telepon": ["0233-360100", "081222549115"],
         "fax": null,
@@ -38,12 +47,12 @@ const komisaris = [
         "location": "https://raw.githubusercontent.com/ahapsin/web_bprcf/refs/heads/main/public/potrait/4.jpg?token=GHSAT0AAAAAAC3JPXICI2ZKESF57X7MR34KZ2SN2DQ",
     },
     {
-        "nama_kantor": "Feby Fernady Masura",
-        "jabatan": "Direksi",
+        "nama_kantor": "Yessie Puspita Ayu",
+        "jabatan": "Direktur Kepatuhan",
         "alamat": "Jl. Syeh Maulana Akbar No. 18, Citamba, Kabupaten Kuningan",
         "telepon": ["0232-8951005", "0232-6001041"],
         "fax": null,
-        "avatar": "feby.jpg",
+        "avatar": "https://cdn-icons-png.flaticon.com/512/12225/12225935.png",
         "location": "https://maps.app.goo.gl/C97Ch75v8VBY4q2s7",
     }
 ]
@@ -58,7 +67,8 @@ const komisaris = [
         <div class="flex w-full text-muted-color justify-center">PT. BPR Cahaya Fajar</div>
         <div class="md:p-20">
             <div class="flex md:flex-row flex-col gap-4 justify-center">
-                <div class="bg-surface-50 w-full md:w-1/3 dark:bg-primary-700 p-4 rounded-xl animate-duration-1000 animate-ease-in-out" v-for="komisaris in komisaris"
+                <div class="bg-surface-50 w-full md:w-1/3 dark:bg-primary-700 p-4 rounded-xl animate-duration-1000 animate-ease-in-out"
+                    v-for="komisaris in komisaris"
                     v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
                     <div class="flex">
                         <Avatar :image="komisaris.avatar" class="mr-2" size="xlarge" shape="circle" />
@@ -73,7 +83,8 @@ const komisaris = [
                 </div>
             </div>
             <div class="grid md:grid-cols-3 pt-4  gap-4 ">
-                <div class="bg-surface-50 dark:bg-primary-700 p-4 rounded-xl animate-duration-1000 animate-ease-in-out" v-for="direksi in direksi"
+                <div class="bg-surface-50 dark:bg-primary-700 p-4 rounded-xl animate-duration-1000 animate-ease-in-out"
+                    v-for="direksi in direksi"
                     v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
                     <div class="flex">
                         <Avatar :image="direksi.avatar" class="mr-2" size="xlarge" shape="circle" />
