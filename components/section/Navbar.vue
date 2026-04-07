@@ -114,6 +114,21 @@ const items = ref([
                         label: '2024',
                         path: '/keberlanjutan/2024',
                     },
+                    {
+                        label: '2025',
+                        path: '/keberlanjutan/2025',
+                    },
+                ]
+            },
+            {
+                label: 'Laporan Pengendalian Internal',
+                icon: 'pi pi-server',
+                path: '/#pengendalian',
+                items: [
+                    {
+                        label: '2025',
+                        path: '/pengendalian/2025',
+                    },
                 ]
             },
             {
@@ -130,7 +145,7 @@ const items = ref([
                 label: 'Sertifikat',
                 icon: 'pi pi-server',
                 path: '#',
-                 items: [
+                items: [
                     {
                         label: 'ISO-27001',
                         path: '/sertifikat/iso27001',
