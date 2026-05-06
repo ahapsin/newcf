@@ -88,6 +88,10 @@ const items = ref([
                         label: '2025',
                         path: '/publikasi/2025',
                     },
+                    {
+                        label: '2026',
+                        path: '/publikasi/2026',
+                    },
                 ]
             },
             {
