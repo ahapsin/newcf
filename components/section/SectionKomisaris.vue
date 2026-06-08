@@ -52,7 +52,7 @@ const direksi = [
         "alamat": "Jl. Syeh Maulana Akbar No. 18, Citamba, Kabupaten Kuningan",
         "telepon": ["0232-8951005", "0232-6001041"],
         "fax": null,
-        "avatar": "https://cdn-icons-png.flaticon.com/512/12225/12225935.png",
+        "avatar": "yessie.jpg",
         "location": "https://maps.app.goo.gl/C97Ch75v8VBY4q2s7",
     }
 ]
