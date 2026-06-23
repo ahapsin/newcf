@@ -14,7 +14,7 @@
                 <a :href="slotProps.node.link"><span :class="slotProps.node.link ? 'text-blue-500':''">{{ slotProps.node.label }}</span></a>
             </template>
 </OrganizationChart> -->
-        <div class="mx-auto"><img src="/pengaduan/Alur_Layanan_Pengaduan_Nasabah.webp" /></div>
+        <div class="mx-auto"><img src="/pengaduan/Struktur_Organisasi_Pelindungan_Konsumen.webp" /></div>
     </div>
 </template>
 
