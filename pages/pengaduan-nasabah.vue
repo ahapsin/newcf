@@ -1,7 +1,8 @@
 <template>
-    <div class="card mt-10">
+    <div class="card mt-14 max-w-[1366px] mx-auto">
         <Tabs value="0" scrollable>
             <TabList>
+
                 <Tab value="0">
                     <Badge value="1" severity="warn"></Badge> Struktur Organisasi Pelindungan Konsumen
                 </Tab>
