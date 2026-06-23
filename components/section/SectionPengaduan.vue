@@ -1,5 +1,5 @@
 <template>
-    <div class="flex">
+    <div class="flex flex-col md:flex-row">
         <div class="flex w-full items-center justify-center">
             <img src="/public/report.svg" />
         </div>

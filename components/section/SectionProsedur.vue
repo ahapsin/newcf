@@ -1,6 +1,6 @@
 <template>
-    <div class="card overflow-x-auto">
-        <OrganizationChart :value="data" collapsible>
+    <div class="card overflow-x-auto w-full flex">
+        <!-- <OrganizationChart :value="data" collapsible>
             <template #person="slotProps">
                 <div class="flex flex-col">
                     <div class="flex flex-col items-center">
@@ -10,10 +10,11 @@
                     </div>
                 </div>
             </template>
-            <template #default="slotProps">
+<template #default="slotProps">
                 <a :href="slotProps.node.link"><span :class="slotProps.node.link ? 'text-blue-500':''">{{ slotProps.node.label }}</span></a>
             </template>
-        </OrganizationChart>
+</OrganizationChart> -->
+        <div class="mx-auto"><img src="/pengaduan/Alur_Layanan_Pengaduan_Nasabah.webp" /></div>
     </div>
 </template>
 
@@ -30,7 +31,7 @@ const data = ref({
     children: [
         {
             key: '0_0',
-            label:'LISAN',
+            label: 'LISAN',
             styleClass: '!bg-green-100 text-red rounded-xl',
             children: [
                 {
@@ -53,7 +54,7 @@ const data = ref({
             children: [
                 {
                     label: 'www.kontak157.ojk.go.id',
-                    link:'https://kontak157.ojk.go.id/APPKPublicPortal/',
+                    link: 'https://kontak157.ojk.go.id/APPKPublicPortal/',
                 },
             ]
         },
