@@ -1,15 +1,16 @@
 <template>
-    <div class="flex rounded-xl overflow-clip shadow-lg p-20" id="pengumuman">
+    <div class="flex md:max-w-[1366px] py-20 mx-auto" id="pengumuman">
         <img src="/logo_change.webp" class="border rounded-2xl">
     </div>
     <div class="p-4 md:p-20 gap-4 flex flex-col bg-surface-50 dark:bg-primary-600" id="visimisi">
-        <div class="flex flex-col md:flex-row gap-4 mt-10"
+        <div class="flex flex-col md:flex-row gap-4 mt-10 md:max-w-[1366px] mx-auto"
             v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
 
             <div class="bg-primary-50/10 rounded-xl p-4 w-full animate-duration-1000 animate-ease-in-out"
                 v-animateonscroll="{ enterClass: 'animate-fadein', leaveClass: 'animate-slideout' }">
                 <div class="text-orange-500">Visi Perusahaan</div>
-                <div class="text-xl">Menjadi BPR Terbaik dan Terpercaya bagi Masyarakat wilayah Provinsi Jawa Barat</div>
+                <div class="text-xl">Menjadi BPR Terbaik dan Terpercaya bagi Masyarakat wilayah Provinsi Jawa Barat
+                </div>
             </div>
             <div class="bg-primary-50/10 rounded-xl p-4 w-full">
                 <div class="text-orange-500">Misi Perusahaan</div>

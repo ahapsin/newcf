@@ -3,10 +3,10 @@
 </script>
 
 <template>
-    <div class="flex bg-primary-50/5 dark:bg-primary-600 ">
-        <div class="-mt-10 md:-mt-20 md:p-10 justify-center shadow-lg items-center bg-white dark:bg-primary-700 rounded-2xl mx-5 md:mx-20 animate-duration-1000 animate-ease-in-out"
+    <div class="flex w-full justify-center ">
+        <div class="md:max-w-[1366px] mx-auto -mt-10 md:-mt-40  shadow-lg items-center bg-white dark:bg-primary-700 rounded-2xl  md:mx-20 animate-duration-1000 animate-ease-in-out"
             v-animateonscroll="{ enterClass: 'animate-scalein' }">
-            <div class="grid grid-cols-2  p-10 w-full items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2  p-10 w-full items-center">
                 <div>
                     <span class="text-primary dark:text-white dark:text-white">PRODUK LAYANAN</span><br />
                     <span class="text-md md:text-4xl text-orange-500 font-semibold">
@@ -51,7 +51,3 @@
         </div>
     </div>
 </template>
-
-<style lang="postcss" scoped>
-
-</style>
