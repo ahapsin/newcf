@@ -26,7 +26,7 @@
                         <img src="/pengaduan/Alur_Pengaduan_Lisan.webp" class="w-full h-full object-cover" alt="" />
                     </div>
                     <h2 class="md:text-2xl my-4">2. Pengaduan Secara Tertulis</h2>
-                    <div class="flex justify-center w-full mx-auto">
+                    <div class="flex justify-center w-full mx-auto max-w-[776px]">
                         <img src="/pengaduan/Alur_Pengaduan_Tertulis.webp" class="w-full h-full object-cover" alt="" />
                     </div>
                     <h2 class="md:text-2xl my-4">3. Alur Layanan Pengaduan Nasabah</h2>
