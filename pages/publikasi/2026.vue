@@ -1,6 +1,6 @@
 <template>
     <Title name="title">Laporan Publikasi 2026</Title>
-    <div>
+    <div class="max-w-6xl m-auto">
         <div class="p-10 bg-white flex items-center justify-center text-white text-2xl">
         </div>
         <Accordion value="0">
@@ -9,6 +9,15 @@
                 <AccordionContent>
                     <div class="pdf-container">
                         <iframe src="/laporan/publikasi/LABA RUGI maret 2026.pdf" width="100%" height="600px"
+                            style="border: none;"></iframe>
+                    </div>
+                </AccordionContent>
+            </AccordionPanel>
+            <AccordionPanel value="2">
+                <AccordionHeader> LAPORAN PUBLIKASI PERIODE JUNI 2026</AccordionHeader>
+                <AccordionContent>
+                    <div class="pdf-container">
+                        <iframe src="/laporan/publikasi/LABA RUGI juni 2026.pdf" width="100%" height="600px"
                             style="border: none;"></iframe>
                     </div>
                 </AccordionContent>
