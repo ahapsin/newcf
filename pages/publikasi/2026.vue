@@ -1,33 +1,57 @@
 <template>
-    <Title name="title">Laporan Publikasi 2026</Title>
-    <div class="max-w-6xl m-auto">
-        <div class="p-10 bg-white flex items-center justify-center text-white text-2xl">
-        </div>
-        <Accordion value="0">
-            <AccordionPanel value="1">
-                <AccordionHeader> LAPORAN PUBLIKASI PERIODE MARET 2026</AccordionHeader>
-                <AccordionContent>
-                    <div class="pdf-container">
-                        <iframe src="/laporan/publikasi/LABA RUGI maret 2026.pdf" width="100%" height="600px"
-                            style="border: none;"></iframe>
-                    </div>
-                </AccordionContent>
-            </AccordionPanel>
-            <AccordionPanel value="2">
-                <AccordionHeader> LAPORAN PUBLIKASI PERIODE JUNI 2026</AccordionHeader>
-                <AccordionContent>
-                    <div class="pdf-container">
-                        <iframe src="/laporan/publikasi/LABA RUGI juni 2026.pdf" width="100%" height="600px"
-                            style="border: none;"></iframe>
-                    </div>
-                </AccordionContent>
-            </AccordionPanel>
-        </Accordion>
-    </div>
+  <Title name="title">Laporan Publikasi 2026</Title>
+  <div class="max-w-6xl m-auto min-h-screen">
+    <div
+      class="p-10 bg-white flex items-center justify-center text-white text-2xl"
+    ></div>
+    <Accordion value="0">
+      <AccordionPanel value="1">
+        <AccordionHeader> LAPORAN PUBLIKASI PERIODE MARET 2026</AccordionHeader>
+        <AccordionContent>
+          <div class="pdf-container">
+            <iframe
+              src="/laporan/publikasi/LABA RUGI maret 2026.pdf"
+              width="100%"
+              height="600px"
+              style="border: none"
+            ></iframe>
+          </div>
+        </AccordionContent>
+      </AccordionPanel>
+      <AccordionPanel value="2">
+        <AccordionHeader> LAPORAN PUBLIKASI PERIODE JUNI 2026</AccordionHeader>
+        <AccordionContent>
+          <div class="pdf-container">
+            <iframe
+              src="/laporan/publikasi/LABA RUGI juni 2026.pdf"
+              width="100%"
+              height="600px"
+              style="border: none"
+            ></iframe>
+          </div>
+        </AccordionContent>
+      </AccordionPanel>
+      <AccordionPanel value="3">
+        <AccordionHeader>
+          LAPORAN PUBLIKASI PERIODE SEPTEMBER 2026</AccordionHeader
+        >
+        <AccordionContent>
+          <div class="pdf-container">
+            <iframe
+              src="/laporan/publikasi/Publikasi Sept 2026.pdf"
+              width="100%"
+              height="600px"
+              style="border: none"
+            ></iframe>
+          </div>
+        </AccordionContent>
+      </AccordionPanel>
+    </Accordion>
+  </div>
 </template>
 
 <script setup>
 definePageMeta({
-    layout: 'landing'
-})
+  layout: "landing",
+});
 </script>
